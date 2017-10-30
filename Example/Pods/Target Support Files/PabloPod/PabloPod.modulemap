@@ -1,0 +1,6 @@
+framework module PabloPod {
+  umbrella header "PabloPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

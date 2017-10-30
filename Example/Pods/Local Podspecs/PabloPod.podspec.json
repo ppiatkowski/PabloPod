@@ -1,0 +1,22 @@
+{
+  "name": "PabloPod",
+  "version": "0.1.0",
+  "summary": "A short description of PabloPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ppiatkowski/PabloPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ppiatkowski": "pawel.piatkowski@mobica.com"
+  },
+  "source": {
+    "git": "https://github.com/ppiatkowski/PabloPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PabloPod/Classes/**/*"
+}
