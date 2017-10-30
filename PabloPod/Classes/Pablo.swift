@@ -10,7 +10,7 @@ import UIKit
 class Pablo: NSObject {
 
     public class func hello()  {
-        print("Hello from PabloPod")
+        print("Hello from PabloPod 2")
     }
 
 }
