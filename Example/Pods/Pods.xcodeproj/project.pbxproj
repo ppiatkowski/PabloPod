@@ -13,10 +13,10 @@
 		12F04D9BDC3E3F54C875D50A3940CB9A /* PabloPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB44095F5BB5D64E5DA4B2CB5299D0B /* PabloPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2637F483E96BD84FF297F4D96FC7755A /* Pods-PabloPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2DAD7AC99F99A90D5F0B92D35532E7B /* Pods-PabloPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6BDDA1767E295D3F456FC2C6A756D20E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		886F4AD79E734F3907002C1E1107696D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A688079777022897160CAF00A990752 /* ReplaceMe.swift */; };
 		88AF9ACB8FFCC24A4F71440CE649449B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D4F877CAC33581D146F29D3CCA73EE17 /* Pods-PabloPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 783AFF2D753D1530E492B2286EBEE4D9 /* Pods-PabloPod_Example-dummy.m */; };
 		E181F388031DDAA94C4F644892FEB592 /* Pods-PabloPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 493EBD357127B0BFE9DFBE953514936C /* Pods-PabloPod_Tests-dummy.m */; };
+		E5393BA71FA736F9009116D0 /* Pablo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5393BA61FA736F9009116D0 /* Pablo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,35 +32,35 @@
 /* Begin PBXFileReference section */
 		01489E65AA3774D392708DCD1E2D6460 /* Pods-PabloPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PabloPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0478253A97F854EA62C66D9A537C1130 /* Pods-PabloPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PabloPod_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0A688079777022897160CAF00A990752 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PabloPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1348F07A52281455EBDB8BD56910BF04 /* Pods-PabloPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PabloPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		1909EFB77D47C0C83622725EB4C61C1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AD80E930324A4C3CC658BE48205103F /* Pods-PabloPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PabloPod_Tests.modulemap"; sourceTree = "<group>"; };
+		1AD80E930324A4C3CC658BE48205103F /* Pods-PabloPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PabloPod_Tests.modulemap"; sourceTree = "<group>"; };
 		2D35307AAF4F0A935A1C60BD6B797AD8 /* PabloPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PabloPod.xcconfig; sourceTree = "<group>"; };
-		354DB0BA56ED92FBEDC49E1E06B36704 /* PabloPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PabloPod.framework; path = PabloPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		354DB0BA56ED92FBEDC49E1E06B36704 /* PabloPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PabloPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		442A3412A90ACCB7878D8B72ADD6E546 /* Pods-PabloPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PabloPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		46E62D25A61C87388A7754B6343F423D /* Pods-PabloPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PabloPod_Example-resources.sh"; sourceTree = "<group>"; };
 		493EBD357127B0BFE9DFBE953514936C /* Pods-PabloPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PabloPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		5696764C35C62589E37122955F99BB22 /* Pods-PabloPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PabloPod_Example-frameworks.sh"; sourceTree = "<group>"; };
-		60973A60A20AF70FE4D1EE882F33DFC9 /* PabloPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PabloPod.modulemap; sourceTree = "<group>"; };
+		60973A60A20AF70FE4D1EE882F33DFC9 /* PabloPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PabloPod.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6769C9BB367EDF8F197EA1D2CAA7F5A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C8A818EC94CA7FA1B4BB13C712CA2C5 /* Pods-PabloPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PabloPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7519C3E1246E6FABFE3844598ACBF36C /* Pods-PabloPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PabloPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		76FF0CB4CD458E7AF2221DE24916F683 /* Pods-PabloPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PabloPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		783AFF2D753D1530E492B2286EBEE4D9 /* Pods-PabloPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PabloPod_Example-dummy.m"; sourceTree = "<group>"; };
-		7842B68A057A72703F331ED409AC63C9 /* Pods_PabloPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PabloPod_Tests.framework; path = "Pods-PabloPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C016A739207118CD27547986B21D9A6 /* Pods-PabloPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PabloPod_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7842B68A057A72703F331ED409AC63C9 /* Pods_PabloPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PabloPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C016A739207118CD27547986B21D9A6 /* Pods-PabloPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PabloPod_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AB963689337A3D828B9217B6C5C4AFB /* Pods-PabloPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PabloPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		9AE015C9D033A1DE2AE2EF1C42F7F2A2 /* PabloPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PabloPod-prefix.pch"; sourceTree = "<group>"; };
 		9F31BD5EFA1C7A9804F4A6D34007BBD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3819D48FDAF4570B6A8A3AF37C2B24 /* Pods-PabloPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PabloPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BAB16CCD7478363E5494795E46297F57 /* Pods-PabloPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PabloPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BCB44095F5BB5D64E5DA4B2CB5299D0B /* PabloPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PabloPod-umbrella.h"; sourceTree = "<group>"; };
-		C0E4FDA6E5A37420584D519FDAD2732C /* Pods_PabloPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PabloPod_Example.framework; path = "Pods-PabloPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E4FDA6E5A37420584D519FDAD2732C /* Pods_PabloPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PabloPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DAD7AC99F99A90D5F0B92D35532E7B /* Pods-PabloPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PabloPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		D9637A3311186CEA8DB793BE8EF91E10 /* PabloPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PabloPod-dummy.m"; sourceTree = "<group>"; };
+		E5393BA61FA736F9009116D0 /* Pablo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Pablo.swift; path = PabloPod/Classes/Pablo.swift; sourceTree = "<group>"; };
 		EC44F0856D2FA8C82A4F0403BBB39F15 /* Pods-PabloPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PabloPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,7 +109,7 @@
 		2572EAA5E483D25F282DFD64AAEBA8C6 /* PabloPod */ = {
 			isa = PBXGroup;
 			children = (
-				0A688079777022897160CAF00A990752 /* ReplaceMe.swift */,
+				E5393BA61FA736F9009116D0 /* Pablo.swift */,
 				000AB42A35467BD58CF821FBA58823A9 /* Support Files */,
 			);
 			name = PabloPod;
@@ -329,8 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5393BA71FA736F9009116D0 /* Pablo.swift in Sources */,
 				09E04A23DB381B92E806723234DAAFB2 /* PabloPod-dummy.m in Sources */,
-				886F4AD79E734F3907002C1E1107696D /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
